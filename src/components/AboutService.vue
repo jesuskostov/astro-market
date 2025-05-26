@@ -1,5 +1,5 @@
 <script setup>
-// Information and predictions provided by Hristo Yamalov
+// Информация и прогнози от Христо Ямалов
 </script>
 
 <template>
@@ -9,33 +9,32 @@
         <div class="w-full lg:w-1/2" data-aos="fade-right">
           <img 
             src="https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-            alt="Ancient Babylonian tablet" 
+            alt="Древна вавилонска плоча" 
             class="w-full h-auto rounded-lg shadow-2xl shadow-primary-900/30 border border-primary-800/30"
           />
           
-          <!-- Decorative elements -->
           <div class="relative mt-8 ml-8">
             <div class="absolute -top-4 -left-4 w-full h-full border-2 border-secondary-500/30 rounded-lg"></div>
             <img 
               src="https://images.pexels.com/photos/5472258/pexels-photo-5472258.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-              alt="Financial chart" 
+              alt="Финансова графика" 
               class="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
         </div>
         
         <div class="w-full lg:w-1/2" data-aos="fade-left">
-          <span class="text-secondary-500 uppercase tracking-wider text-sm font-medium">Our Approach</span>
-          <h2 class="text-3xl md:text-4xl mb-6 mt-2">Ancient Wisdom Meets Modern Finance</h2>
+          <span class="text-secondary-500 uppercase tracking-wider text-sm font-medium">Нашият Подход</span>
+          <h2 class="text-3xl md:text-4xl mb-6 mt-2">Древна Мъдрост Среща Модерни Финанси</h2>
           
           <p class="text-neutral-300 mb-6">
-            For over 4,000 years, Babylonian astrologers studied the heavens to predict earthly events. 
-            They recognized patterns we\'ve now scientifically correlated with market cycles.
+            Повече от 4000 години вавилонските астролози изучават небесата, за да предсказват земни събития. 
+            Те разпознават модели, които сега научно корелират с пазарните цикли.
           </p>
           
           <p class="text-neutral-300 mb-6">
-            Our team, led by renowned astrologer Hristo Yamalov, combines ancient knowledge of celestial mechanics with cutting-edge market analysis 
-            to provide you with insights that transcend conventional financial wisdom.
+            Нашият екип, воден от известния астролог Христо Ямалов, съчетава древното познание за небесната механика със съвременен пазарен анализ, 
+            за да ви предостави прозрения, които надхвърлят конвенционалната финансова мъдрост.
           </p>
           
           <div class="space-y-6 mb-8">
@@ -46,8 +45,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="text-xl font-serif mb-2 text-secondary-400">Celestial Timing</h3>
-                <p class="text-neutral-400">Our proprietary algorithms translate planetary movements into precise market entry and exit points.</p>
+                <h3 class="text-xl font-serif mb-2 text-secondary-400">Небесно Време</h3>
+                <p class="text-neutral-400">Нашите патентовани алгоритми превръщат планетарните движения в точни точки за влизане и излизане от пазара.</p>
               </div>
             </div>
             
@@ -58,8 +57,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="text-xl font-serif mb-2 text-secondary-400">Cyclical Forecasting</h3>
-                <p class="text-neutral-400">We\'ve mapped the correlation between ancient Babylonian cycles and modern market movements with stunning accuracy.</p>
+                <h3 class="text-xl font-serif mb-2 text-secondary-400">Циклично Прогнозиране</h3>
+                <p class="text-neutral-400">Картографирахме корелацията между древните вавилонски цикли и съвременните пазарни движения с поразителна точност.</p>
               </div>
             </div>
             
@@ -70,13 +69,13 @@
                 </svg>
               </div>
               <div>
-                <h3 class="text-xl font-serif mb-2 text-secondary-400">Exclusive Insights</h3>
-                <p class="text-neutral-400">Our subscribers gain access to predictive market intelligence unavailable through conventional financial analysis.</p>
+                <h3 class="text-xl font-serif mb-2 text-secondary-400">Ексклузивни Прозрения</h3>
+                <p class="text-neutral-400">Нашите абонати получават достъп до предиктивно пазарно разузнаване, недостъпно чрез конвенционален финансов анализ.</p>
               </div>
             </div>
           </div>
           
-          <button class="btn btn-secondary">Discover Our Methodology</button>
+          <button class="btn btn-secondary">Открийте Нашата Методология</button>
         </div>
       </div>
     </div>
