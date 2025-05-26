@@ -4,9 +4,21 @@ import Blog from '../pages/Blog.vue';
 import PaymentFlow from '../components/PaymentFlow.vue';
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/blog', component: Blog },
-  { path: '/subscribe', component: PaymentFlow }
+  { 
+    path: '/', 
+    name: 'home',
+    component: Home 
+  },
+  { 
+    path: '/blog', 
+    name: 'blog',
+    component: Blog 
+  },
+  { 
+    path: '/subscribe', 
+    name: 'subscribe',
+    component: PaymentFlow 
+  }
 ];
 
 const router = createRouter({
