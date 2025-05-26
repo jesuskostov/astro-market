@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Inter:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3d2b70;
+  --secondary: #e2ad49;
+  --accent: #5e37de;
+  --bg-dark: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-neutral-950 text-neutral-200 font-sans;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif text-secondary-400 leading-tight;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+.container {
+  @apply px-4 mx-auto max-w-7xl;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-md transition-all duration-300 font-medium text-center inline-block;
+}
+
+.btn-primary {
+  @apply bg-primary-600 hover:bg-primary-700 text-white shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-secondary-500 hover:bg-secondary-600 text-primary-900 shadow-lg hover:shadow-xl;
+}
+
+.btn-outline {
+  @apply border border-secondary-400 text-secondary-400 hover:bg-secondary-400/10;
+}
+
+.card {
+  @apply bg-neutral-900/70 backdrop-blur-sm rounded-lg p-6 border border-primary-700/50 shadow-lg transition-all duration-300;
+}
+
+.card:hover {
+  @apply shadow-lg shadow-primary-900/30 border-primary-600/50;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #e2ad49 0%, #f3dfb6 50%, #d99e35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.starfield {
+  background-image: radial-gradient(#ffffff33 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.cosmic-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.cosmic-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(94, 55, 222, 0.15) 0%, rgba(26, 18, 48, 0) 70%);
+  z-index: -1;
+}
+
+/* Animation for stars */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkle linear infinite;
+}
