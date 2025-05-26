@@ -31,24 +31,24 @@ onUnmounted(() => {
       <!-- Logo -->
       <router-link to="/" class="flex items-center gap-2">
         <div class="w-10 h-10 rounded-full bg-secondary-500 flex items-center justify-center">
-          <span class="text-primary-900 font-serif text-lg font-bold">M</span>
+          <span class="text-primary-900 font-serif text-lg font-bold">П</span>
         </div>
-        <span class="text-xl font-serif text-secondary-400">MarketOracle</span>
+        <span class="text-xl font-serif text-secondary-400">ПазаренОракул</span>
       </router-link>
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-8">
-        <router-link to="/#about" class="text-neutral-200 hover:text-secondary-400 transition-colors">About</router-link>
-        <router-link to="/#how-it-works" class="text-neutral-200 hover:text-secondary-400 transition-colors">How It Works</router-link>
-        <router-link to="/#pricing" class="text-neutral-200 hover:text-secondary-400 transition-colors">Pricing</router-link>
-        <router-link to="/blog" class="text-neutral-200 hover:text-secondary-400 transition-colors">Insights</router-link>
-        <router-link to="/#faq" class="text-neutral-200 hover:text-secondary-400 transition-colors">FAQ</router-link>
+        <router-link to="/#about" class="text-neutral-200 hover:text-secondary-400 transition-colors">За нас</router-link>
+        <router-link to="/#how-it-works" class="text-neutral-200 hover:text-secondary-400 transition-colors">Как работи</router-link>
+        <router-link to="/#pricing" class="text-neutral-200 hover:text-secondary-400 transition-colors">Цени</router-link>
+        <router-link to="/blog" class="text-neutral-200 hover:text-secondary-400 transition-colors">Прозрения</router-link>
+        <router-link to="/#faq" class="text-neutral-200 hover:text-secondary-400 transition-colors">Въпроси</router-link>
       </nav>
 
       <!-- Call to Action -->
       <div class="hidden md:flex items-center gap-4">
-        <button class="btn btn-outline text-sm py-2">Login</button>
-        <button class="btn btn-primary text-sm py-2">Start Free Trial</button>
+        <button class="btn btn-outline text-sm py-2">Вход</button>
+        <button class="btn btn-primary text-sm py-2">Започни безплатно</button>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -64,14 +64,14 @@ onUnmounted(() => {
     <div v-show="isMenuOpen" class="md:hidden bg-neutral-900 shadow-lg animate-fade-in-down">
       <div class="container mx-auto px-4 py-4">
         <nav class="flex flex-col gap-4">
-          <router-link to="/#about" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">About</router-link>
-          <router-link to="/#how-it-works" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">How It Works</router-link>
-          <router-link to="/#pricing" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Pricing</router-link>
-          <router-link to="/blog" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Insights</router-link>
-          <router-link to="/#faq" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">FAQ</router-link>
+          <router-link to="/#about" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">За нас</router-link>
+          <router-link to="/#how-it-works" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Как работи</router-link>
+          <router-link to="/#pricing" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Цени</router-link>
+          <router-link to="/blog" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Прозрения</router-link>
+          <router-link to="/#faq" @click="isMenuOpen = false" class="text-neutral-200 py-2 border-b border-neutral-800">Въпроси</router-link>
           <div class="flex flex-col gap-3 mt-4">
-            <button class="btn btn-outline">Login</button>
-            <button class="btn btn-primary">Start Free Trial</button>
+            <button class="btn btn-outline">Вход</button>
+            <button class="btn btn-primary">Започни безплатно</button>
           </div>
         </nav>
       </div>
