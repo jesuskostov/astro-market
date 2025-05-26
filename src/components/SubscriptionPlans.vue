@@ -162,6 +162,7 @@ const toggleBilling = () => {
             
             <div class="p-6 lg:p-8 border-t border-primary-800">
               <button 
+                @click="$router.push('/subscribe')" 
                 class="w-full btn" 
                 :class="plan.color === 'primary' ? 'btn-outline' : 
                         plan.color === 'secondary' ? 'btn-secondary' : 
